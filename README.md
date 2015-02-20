@@ -8,11 +8,11 @@ This file.  Describes the set of files included in the repository and how they a
 ### run_analysis.R
 run_analysis is the R code that performs the required transformations.  Running this package requires the dplyr package be installed.  The working directory is set at the top of the script and will need to be altered to wherever this software has been downloaded to.  The run_analysis script is the only script included in the repository and running it will complete all operations as required by the project.  This includes the following steps:
 
-Step 1: Merges the training and the test sets to create one data set.
-Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
-Step 3: Uses descriptive activity names to name the activities in the data set
-Step 4: Appropriately label the data set with descriptive variable names.
-Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+1. Step 1: Merges the training and the test sets to create one data set.
+2. Step 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Step 3: Uses descriptive activity names to name the activities in the data set
+4. Step 4: Appropriately label the data set with descriptive variable names.
+5. Step 5: Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 The run_analysis script includes many commands such as summary() and str() that were used for debugging.  These have been left in to show progress as the script executes.
 

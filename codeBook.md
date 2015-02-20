@@ -2,15 +2,15 @@
 Code Book for Drew's Project Submission for Getting and Cleaning Data
 
 ### Subject
-Type: int
+Type: int  
 Description: This is an integer value, ranging from 1 to 30, identifying the participant in the study.
 
 ### Activity
-Type: Factor w/ 6 levels
+Type: Factor w/ 6 levels  
 Description: There are 6 values describing the activity being performed - WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
 ### Feature Variables (names below)
-Type: num
+Type: num  
 Description: All of the values below are mean values, grouped by Subject and Avtivity, of values pulled from the UCI HAR Dataset.  The variable names are the names taken from that data and run through the R function make.names() in order to make them valid.  This function replaces characters such as parens with dots. The actual description of the individual variables is unknown.  It is only known that they are reading from the Samsung smartphone as taken during the research.  These variables were chosen from the larger set as the prompt stated that we should keep the mean and standard deviation variables.  Any variable that contained the character strings 'mean' or 'std', in any case, was kept.
 
 tBodyAcc.mean...X 
