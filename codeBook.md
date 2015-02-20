@@ -13,7 +13,7 @@ Description: There are 6 values describing the activity being performed - WALKIN
 Type: num  
 Description: All of the values below are mean values, grouped by Subject and Avtivity, of values pulled from the UCI HAR Dataset.  The variable names are the names taken from that data and run through the R function make.names() in order to make them valid.  This function replaces characters such as parens with dots. The actual description of the individual variables is unknown.  It is only known that they are reading from the Samsung smartphone as taken during the research.  These variables were chosen from the larger set as the prompt stated that we should keep the mean and standard deviation variables.  Any variable that contained the character strings 'mean' or 'std', in any case, was kept.
 
-tBodyAcc.mean...X 
+tBodyAcc.mean...X  
 tBodyAcc.mean...Y                 
 tBodyAcc.mean...Z                
 tBodyAcc.std...X                   
@@ -55,7 +55,7 @@ tBodyGyroJerkMag.mean..
 tBodyGyroJerkMag.std..            
 fBodyAcc.mean...X            
 fBodyAcc.mean...Y               
-fBodyAcc.mean...Z 
+fBodyAcc.mean...Z   
 fBodyAcc.std...X   
 fBodyAcc.std...Y     
 fBodyAcc.std...Z              
@@ -78,7 +78,7 @@ fBodyGyro.std...X
 fBodyGyro.std...Y            
 fBodyGyro.std...Z          
 fBodyGyro.meanFreq...X          
-fBodyGyro.meanFreq...Y          .
+fBodyGyro.meanFreq...Y          
 fBodyGyro.meanFreq...Z        
 fBodyAccMag.mean..            
 fBodyAccMag.std..              
@@ -93,9 +93,10 @@ fBodyBodyGyroJerkMag.mean..
 fBodyBodyGyroJerkMag.std..        
 fBodyBodyGyroJerkMag.meanFreq..    
 angle.tBodyAccMean.gravity.        
-angle.tBodyAccJerkMean..gravityMean.
+angle.tBodyAccJerkMean..gravityMean.   
 angle.tBodyGyroMean.gravityMean.    
-angle.tBodyGyroJerkMean.gravityMean.
+angle.tBodyGyroJerkMean.gravityMean.  
 angle.X.gravityMean.                
 angle.Y.gravityMean.               
 angle.Z.gravityMean.           
+
